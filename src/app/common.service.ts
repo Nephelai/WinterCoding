@@ -1,10 +1,10 @@
 import { Injectable } from '@angular/core';
-import {Http, Response, Headers, RequestOptions } from '@angular/http';
+import { Http, Response, Headers, RequestOptions } from '@angular/http';
 
 import { Observable } from 'rxjs/Observable';
 import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/do';
-import {map} from 'rxjs/internal/operators';
+import { map } from 'rxjs/internal/operators';
 
 @Injectable()
 export class CommonService {

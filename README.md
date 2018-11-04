@@ -2,26 +2,15 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.3.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Web Project
+Server make Node, Express, MongoDB  
+Client make Angular  
 
-## Code scaffolding
+Save를 통해 새로운 Todo 기록 여기에는 마감기한, 우선 순위(중요도)를 넣는다.  
+마감기한이 지난 Todo에는 알람(제목)을 보여준다.  
+Todo 목록을 보고 Edit은 수정을 기록, Delete를 통해 삭제를 일으킨다.  
+Done 에는 완료여부를 정할 수 있다. 이는 Todo의 제목(Title)을 누르면 바뀐다.  
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+만일 마감기한이 지난 Todo여도 Done(완료)가 된 경우 알림이 오지 않는 것을 볼 수 있다.
+ 
